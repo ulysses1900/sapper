@@ -192,6 +192,7 @@ public class GuiOptions extends JFrame {
 
 	private void backToHomeScreen() {
 		HomeScreen saper = new HomeScreen(xSize, ySize, mines);
+		//HomeScreen saper = new HomeScreen();
 		saper.setLocation(this.getLocationOnScreen());
 		saper.setVisible(true);
 		this.setVisible(false);
